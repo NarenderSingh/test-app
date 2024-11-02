@@ -1,5 +1,7 @@
 const nextConfig = {
   reactStrictMode: false,
+  distDir: "build",
+  output: "standalone",
   experimental: {
     staleTimes: {
       dynamic: 30,
