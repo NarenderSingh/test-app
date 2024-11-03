@@ -2,15 +2,6 @@ const nextConfig = {
   reactStrictMode: false,
   // distDir: "build",
   output: "standalone",
-  async redirects() {
-    return [
-      {
-        source: "/((?!.swa).*)<YOUR MATCHING RULE>",
-        destination: "<YOUR REDIRECT RULE>",
-        permanent: false,
-      },
-    ];
-  },
   experimental: {
     staleTimes: {
       dynamic: 30,
