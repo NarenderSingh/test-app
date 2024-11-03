@@ -1,6 +1,6 @@
 const nextConfig = {
-  reactStrictMode: false,
   output: "standalone",
+  distDir: "build",
 };
 
 export default nextConfig;
