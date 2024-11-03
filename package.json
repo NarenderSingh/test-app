@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,7 +19,7 @@
     "@mui/icons-material": "5.15.15",
     "@mui/lab": "5.0.0-alpha.170",
     "@mui/material": "5.15.15",
-    "@next/bundle-analyzer": "^15.0.1",
+    "@next/bundle-analyzer": "15.0.1",
     "@tabler/icons-react": "2.30.0",
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
