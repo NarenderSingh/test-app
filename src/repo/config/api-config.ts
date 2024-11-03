@@ -1,3 +1,3 @@
 export const API_CONFIG = {
-  url: "http://127.0.0.1:8000/api/",
+  url: "https://convene-ai-test-api.azurewebsites.net/api/",
 };
