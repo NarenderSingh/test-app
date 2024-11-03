@@ -1,10 +1,9 @@
-// import { NextResponse } from "next/server";
-// import type { NextRequest } from "next/server";
-
-// // export function middleware(request: NextRequest) {
-// //   return NextResponse.redirect(new URL("/", request.url));
-// // }
-
-// // export const config = {
-// //   matcher: "/about/:path*",
-// // };
+export const config = {
+  matcher: [
+    /*
+     * Match all request paths except for the ones starting with:
+     * - .swa (Azure Static Web Apps)
+     */
+    "/((?!.swa).*)",
+  ],
+};
